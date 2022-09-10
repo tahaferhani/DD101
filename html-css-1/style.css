@@ -1,0 +1,60 @@
+body {
+    font-family: "Poppins";
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    display: table;
+    margin: auto;
+    padding: 20px 40px;
+    border: none;
+    background-color: #f57059;
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+.image-bloc {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image-bloc img {
+    width: 100%;
+}
+
+.image-bloc .content {
+    padding: 30px;
+}
+
+.image-bloc p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.image-bloc a {
+    text-decoration: none;
+    color: #f57059;
+}
